@@ -97,7 +97,7 @@ pip install -r requirements.txt
 ```
 python test1.py
 ```
-4. change the myhttpbin settings to remove http2, restart nginx, and run test1.py.  Observe the difference in duration.
+4. change the myhttpbin settings to remove http2, restart nginx, and run test1.py.  Observe the difference in total time duration.
 
 
 
