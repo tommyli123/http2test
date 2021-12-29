@@ -77,8 +77,9 @@ ln -s /etc/nginx/sites-available/httpbin httpbin
 
 7. disable SSL settings in `/etc/nginx/nginx.conf`
 
+8. restart nginx
 ```
-TODO
+sudo service nginx restart
 ```
 
 # python setup
@@ -96,6 +97,7 @@ pip install -r requirements.txt
 ```
 python test1.py
 ```
+4. change the myhttpbin settings to remove http2, restart nginx, and run test1.py.  Observe the difference in duration.
 
 
 
